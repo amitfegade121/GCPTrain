@@ -4,11 +4,11 @@ For USA
 
 #! /bin/bash
 
-apt-get update
+apt-get update && apt-get install python wget -y
 
 wget https://raw.githubusercontent.com/dhanajimusale/GCPTrain/master/frontend-uswest.py
 
-sudo python frontend-uswest.py &
+sudo python frontend-uswest.py
 
 
 .
@@ -18,11 +18,11 @@ For  Asia
 
 #! /bin/bash
 
-apt-get update
+apt-get update && apt-get install python wget -y
 
 wget https://raw.githubusercontent.com/dhanajimusale/GCPTrain/master/frontend-asia.py
 
-sudo python frontend-asia.py &
+sudo python frontend-asia.py 
 
 
 .
@@ -32,11 +32,11 @@ For  Europe
 
 #! /bin/bash
 
-apt-get update
+apt-get update && apt-get install python wget -y
 
 wget https://raw.githubusercontent.com/dhanajimusale/GCPTrain/master/frontend_europe.py
 
-sudo python frontend_europe.py &
+sudo python frontend_europe.py 
 
 
 ############################################################################
